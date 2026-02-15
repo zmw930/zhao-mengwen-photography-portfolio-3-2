@@ -1,0 +1,7 @@
+{
+  "name": "Zhao Mengwen Photography Portfolio-3",
+  "description": "A Nordic-inspired, minimalist portfolio website for lifestyle photographer Zhao Mengwen, featuring natural light, soft tones, and clean Scandinavian design.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
