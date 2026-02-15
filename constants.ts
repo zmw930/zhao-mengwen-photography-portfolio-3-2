@@ -1,4 +1,3 @@
-
 import { PortfolioItem, NavItem } from './types';
 
 export const NAV_ITEMS: NavItem[] = [
@@ -9,7 +8,7 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const PORTFOLIO_ITEMS: PortfolioItem[] = [
-  // Life Aesthetics - 6 Items
+  // --- Life Aesthetics 生活美学 (20 Albums) ---
   {
     id: 'la-1',
     category: 'Life Aesthetics',
@@ -17,16 +16,30 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Minimalist Vessel',
     titleCn: '器物之美',
     description: 'The silent beauty of ceramic forms in morning light.',
-    imageUrl: 'https://images.unsplash.com/photo-1578500484698-f321741d89d1?auto=format&fit=crop&q=80&w=800'
+    images: [
+      'https://i.postimg.cc/6qcZ05jc/DSCF2651.jpg',
+      'https://i.postimg.cc/HnzM2svm/DSCF2653.jpg',
+      'https://i.postimg.cc/1XBFH57Z/DSCF2652.jpg',
+      'https://i.postimg.cc/zv7hjX2J/DSCF2655.jpg',
+      'https://i.postimg.cc/rsj4JFZc/DSCF2657.jpg',
+      'https://i.postimg.cc/7PnSDmH7/DSCF2658.jpg'
+    ]
   },
   {
     id: 'la-2',
     category: 'Life Aesthetics',
     subCategory: 'Soft Decoration',
-    title: 'Fabric & Shadow',
-    titleCn: '织物与影',
-    description: 'Natural linen textures in a Nordic setting.',
-    imageUrl: 'https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&q=80&w=800'
+    title: 'Form & Shadow',
+    titleCn: '器物与影',
+    description: 'The quiet grace of crafted forms and their gentle shadows',
+    images: [
+      'https://i.postimg.cc/x8wJfJ46/DSCF0745.jpg',
+      'https://i.postimg.cc/Zqtc70Y2/DSCF0760.jpg',
+      'https://i.postimg.cc/d1zGWVY8/DSCF0758.jpg',
+      'https://i.postimg.cc/fbNc7F5H/DSCF0763.jpg',
+      'https://i.postimg.cc/T2FWqF39/DSCF0753.jpg',
+      'https://i.postimg.cc/3R6FPZgR/DSCF0740.jpg',
+    ]
   },
   {
     id: 'la-3',
@@ -35,45 +48,311 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Morning Ritual',
     titleCn: '晨间序曲',
     description: 'Minimalist essentials for a calm start.',
-    imageUrl: 'https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&q=80&w=800'
+    images: [
+      'https://i.postimg.cc/gk11vv5g/IMG_0836_VSCO.jpg',
+      'https://i.postimg.cc/HsrfcSSq/IMG_0831_VSCO.jpg',
+      'https://i.postimg.cc/DyRRqqDC/IMG_0665_VSCO.jpg',
+      'https://i.postimg.cc/KvCCnnwh/Full_Size_Render_VSCO_2.jpg',
+      'https://i.postimg.cc/K8DSx1qJ/R0004668-VSCO.jpg',
+    ]
   },
   {
     id: 'la-4',
     category: 'Life Aesthetics',
-    subCategory: 'Personal Care',
-    title: 'Pure Essence',
-    titleCn: '净之本质',
-    description: 'Organic beauty products in soft daylight.',
-    imageUrl: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Botany',
+    title: 'Green Stillness',
+    titleCn: '草木静立',
+    description: 'Exploring the geometry of leaves and plants.',
+    images: [
+      'https://i.postimg.cc/25S6f755/微信图片_2026_02_06_191724_876.jpg',
+      'https://i.postimg.cc/8Cz5VmCc/微信图片_2026_02_06_191728_067.jpg',
+      'https://i.postimg.cc/bwTJMBqw/微信图片_2026_02_06_191714_402.jpg',
+      'https://i.postimg.cc/fRKLFrMw/微信图片_2026_02_06_191706_694.jpg',
+      'https://i.postimg.cc/L8TX7bm4/微信图片_2026_02_06_191703_979.jpg',
+      'https://i.postimg.cc/5t4Z7P2P/微信图片_2026_02_06_191701_121.jpg',
+    ]
   },
   {
     id: 'la-5',
     category: 'Life Aesthetics',
-    subCategory: 'Appliances',
-    title: 'Curated Objects',
-    titleCn: '物之馆藏',
-    description: 'A selection of Nordic design classics.',
-    imageUrl: 'https://images.unsplash.com/photo-1534349762230-e0cadf78f5db?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Minimalist Home',
+    title: 'Empty Space',
+    titleCn: '留白之室',
+    description: 'The luxury of open spaces and clean lines.',
+    images: [
+      'https://i.postimg.cc/DZVq6zF4/微信图片_2026_02_05_170021_256.jpg',
+      'https://i.postimg.cc/KzXnfYFk/微信图片_2026_02_05_152925_934.jpg',
+      'https://i.postimg.cc/63sdcQwR/微信图片_2026_02_05_152915_578.jpg',
+      'https://i.postimg.cc/gJvs0dY/微信图片_2026_02_05_152852_268.jpg',
+      'https://i.postimg.cc/kgC179pL/wei-xin-tu-pian-2026-02-05-152855-901.jpg',
+      'https://i.postimg.cc/B6Wxpvs2/微信图片_2026_02_05_152836_911.jpg',
+    ]
   },
   {
     id: 'la-6',
     category: 'Life Aesthetics',
-    subCategory: 'Soft Decoration',
-    title: 'Linen Harmony',
-    titleCn: '麻色谐音',
-    description: 'Textiles that breathe life into space.',
-    imageUrl: 'https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Ceramics',
+    title: 'Pink & Pages',
+    titleCn: '粉与页',
+    description: 'A pink journal to hold your thoughts, one soft page at a time.',
+    images: [
+      'https://i.postimg.cc/zDSH9rTH/微信图片_2026_02_05_152717_297.jpg',
+      'https://i.postimg.cc/NG72WcRL/微信图片_2026_02_05_152733_140.jpg',
+      'https://i.postimg.cc/bYHSKh1Z/微信图片_2026_02_05_152730_265.jpg',
+      'https://i.postimg.cc/J4rH82Qd/微信图片_2026_02_05_171741_513.jpg',
+      'https://i.postimg.cc/FFgk2407/微信图片_2026_02_05_152726_044.jpg',
+      'https://i.postimg.cc/zDSH9rTW/微信图片_2026_02_05_152739_820.jpg',
+    ]
+  },
+  {
+    id: 'la-7',
+    category: 'Life Aesthetics',
+    subCategory: 'Kitchen',
+    title: 'Moss Pages',
+    titleCn: '苔色手札',
+    description: 'A muted green journal for untangling quiet thoughts and finding calm in the everyday.',
+    images: [
+      'https://i.postimg.cc/0jp4CN4n/微信图片_2026_02_05_174402_179.jpg',
+      'https://i.postimg.cc/J0bFQhFc/微信图片_2026_02_05_174348_730.jpg',
+      'https://i.postimg.cc/4yz0130W/微信图片_2026_02_05_174410_556.jpg',
+      'https://i.postimg.cc/yxFGTNGG/微信图片_2026_02_05_174417_764.jpg',
+      'https://i.postimg.cc/WprxV94D/微信图片_2026_02_05_174428_258.jpg',
+      'https://i.postimg.cc/j5nmLc4x/微信图片_2026_02_05_174341_013.jpg',
+    ]
+  },
+  {
+    id: 'la-8',
+    category: 'Life Aesthetics',
+    subCategory: 'Stationery',
+    title: 'Blue Prompts',
+    titleCn: '蓝调自省卡',
+    description: 'Colorful stationery cards for analog writing, where pen meets paper to capture honest thoughts.',
+    images: [
+      'https://i.postimg.cc/rprN4P3K/微信图片_2026_02_05_152356_509.jpg',
+      'https://i.postimg.cc/W4kwZHCn/微信图片_2026_02_05_152412_096.jpg',
+      'https://i.postimg.cc/wBmQNGZb/微信图片_2026_02_05_152418_938.jpg',
+      'https://i.postimg.cc/C1pHs4pv/微信图片_2026_02_05_152432_246.jpg',
+      'https://i.postimg.cc/gJbqHKPc/微信图片_2026_02_05_152456_781.jpg',
+    ]
+  },
+  {
+    id: 'la-9',
+    category: 'Life Aesthetics',
+    subCategory: 'Timepiece',
+    title: 'Quiet Pages',
+    titleCn: '静默页章',
+    description: 'A warm brown planner for mapping out your future self, one quiet second at a time.',
+    images: [
+      'https://i.postimg.cc/kM06659F/微信图片_2026_02_05_151455_804.jpg',
+      'https://i.postimg.cc/J7fDDhm5/微信图片_2026_02_05_151449_134.jpg',
+      'https://i.postimg.cc/J7fDDhm3/微信图片_2026_02_05_151502_963.jpg',
+      'https://i.postimg.cc/NG3990YR/微信图片_2026_02_05_151525_930.jpg',
+      'https://i.postimg.cc/jd65DQMs/微信图片_2026_02_05_151955_469.jpg',
+      'https://i.postimg.cc/k5GXhrqM/微信图片_2026_02_05_151959_777.jpg',
+    ]
+  },
+  {
+    id: 'la-10',
+    category: 'Life Aesthetics',
+    subCategory: 'Textiles',
+    title: 'Blush Prompts',
+    titleCn: '粉调自省卡',
+    description: 'Soft pink cards for gentle self-reflection and intentional living.',
+    images: [
+      'https://i.postimg.cc/RZQHzzrr/微信图片_2026_02_05_153031_919.jpg',
+      'https://i.postimg.cc/4xb9TRDr/微信图片_2026_02_05_153041_074.jpg',
+      'https://i.postimg.cc/TPdWdHGG/微信图片_2026_02_05_153103_567.jpg',
+      'https://i.postimg.cc/W4NJNfjp/微信图片_2026_02_05_153108_041.jpg',
+      'https://i.postimg.cc/0NkJkHxN/微信图片_2026_02_05_191240_263.jpg',
+      'https://i.postimg.cc/DzvbvYFZ/微信图片_2026_02_05_191248_088.jpg',
+    ]
+  },
+  {
+    id: 'la-11',
+    category: 'Life Aesthetics',
+    subCategory: 'Zen Space',
+    title: 'Sleek Stillness',
+    titleCn: '利落禅静',
+    description: 'A precision tool for moments of quiet grooming and mindful presence.',
+    images: [
+      'https://i.postimg.cc/JzbFXxgQ/DSCF3354.jpg',
+      'https://i.postimg.cc/wjhrN2Pc/DSCF3359.jpg',
+      'https://i.postimg.cc/rs0nwNx2/DSCF3372.jpg',
+      'https://i.postimg.cc/wTt81hgF/DSCF3350.jpg',
+      'https://i.postimg.cc/8PFQ7hNK/DSCF3348.jpg',
+      'https://i.postimg.cc/8Pq8Mjzt/DSCF3346.jpg',
+    ]
+  },
+  {
+    id: 'la-12',
+    category: 'Life Aesthetics',
+    subCategory: 'Ceramic Decor',
+    title: 'Minimalist Pottery',
+    titleCn: '陶艺装饰',
+    description: 'Functional art that adds soul to a home.',
+    images: [
+      'https://i.postimg.cc/hj7ZS09m/DSCF2958.jpg',
+      'https://i.postimg.cc/5yd7jF3Q/DSCF2961.jpg',
+      'https://i.postimg.cc/LXZQHVzY/微信图片_2026_02_06_191736_435.jpg',
+      'https://i.postimg.cc/Y9mDpx1h/微信图片_2026_02_06_191747_777.jpg',
+      'https://i.postimg.cc/nzQSH1vf/DSCF2931.jpg',
+      'https://i.postimg.cc/nzQSH1vt/DSCF2945.jpg',
+      'https://i.postimg.cc/vTbrp7hL/DSCF2736.jpg',
+      'https://i.postimg.cc/mDFpbSQQ/微信图片_2026_02_06_191753_859.jpg',
+    ]
+  },
+  {
+    id: 'la-13',
+    category: 'Life Aesthetics',
+    subCategory: 'Tea Set',
+    title: 'Amber & Green',
+    titleCn: '琥珀与青',
+    description: 'Warm amber and fresh green notes, capturing the quiet ritual of afternoon tea.',
+    images: [
+      'https://i.postimg.cc/Qd2W2kxQ/DSCF0890.jpg',
+      'https://i.postimg.cc/9XbZD7JM/DSCF0901.jpg',
+      'https://i.postimg.cc/pLhFc1xT/DSCF0858.jpg',
+      'https://i.postimg.cc/5NtvL2Rj/DSCF08631.jpg',
+      'https://i.postimg.cc/Wp8gdkXJ/DSCF0895.jpg',
+      'https://i.postimg.cc/FFp3YLD9/DSCF0899.jpg',
+      'https://i.postimg.cc/pXd8zL6T/DSCF0903.jpg',
+      'https://i.postimg.cc/sx5VZ7Rd/DSCF0944.jpg',
+      'https://i.postimg.cc/FRMrRGwh/DSCF0908.jpg',
+    ]
+  },
+  {
+    id: 'la-14',
+    category: 'Life Aesthetics',
+    subCategory: 'Morning View',
+    title: 'Morning Edge',
+    titleCn: '晨间锋刃',
+    description: 'A precision shaver for the first light of day, turning morning grooming into a quiet ritual.',
+    images: [
+      'https://i.postimg.cc/mg50Bk0N/DSCF3412.jpg',
+      'https://i.postimg.cc/13tLkwYq/DSCF3411.jpg',
+      'https://i.postimg.cc/htz28r5L/DSCF3406.jpg',
+      'https://i.postimg.cc/L8cNxPdX/DSCF3407.jpg',
+      'https://i.postimg.cc/HsfwmC6t/DSCF3389.jpg',
+      'https://i.postimg.cc/pLJJJ6BF/DSCF3386.jpg',
+      'https://i.postimg.cc/434bLQ8q/DSCF3397.jpg',
+      'https://i.postimg.cc/TP2q7JkJ/DSCF3399.jpg',
+    ]
+  },
+  {
+    id: 'la-15',
+    category: 'Life Aesthetics',
+    subCategory: 'Minimalist Office',
+    title: 'Autumn Desk',
+    titleCn: '秋日工位',
+    description: 'A cozy, minimalist desk setup that blends work and the gentle warmth of autumn.',
+    images: [
+      'https://i.postimg.cc/K8pRb7G5/IMG_0764.avif',
+      'https://i.postimg.cc/76sBMWwS/IMG-0759.avif',
+      'https://i.postimg.cc/FsmfVsCD/Full_Size_Render_VSCO_2.jpg',
+      'https://i.postimg.cc/15Pgr5YZ/IMG_0684_VSCO.jpg',
+      'https://i.postimg.cc/L6Rq360S/IMG_0724_VSCO.jpg',
+      'https://i.postimg.cc/KvFKDvpq/Full_Size_Render_VSCO_3.jpg',      
+    ]
+  },
+  {
+    id: 'la-16',
+    category: 'Life Aesthetics',
+    subCategory: 'Studio Corner',
+    title: 'Net & Whiskers',
+    titleCn: '网袋与须',
+    description: 'A woven net bag holding a tiny artist’s atoll, where creativity and furry companions meet.',
+    images: [
+      'https://i.postimg.cc/kDrvTrZF/DSCF0792.jpg',
+      'https://i.postimg.cc/XqBgKN2w/DSCF0794.jpg',
+      'https://i.postimg.cc/23p70pJW/DSCF0797.jpg',
+      'https://i.postimg.cc/FFftCj8s/DSCF0789.jpg',
+      'https://i.postimg.cc/056gXpFK/DSCF0787.jpg',
+      'https://i.postimg.cc/mZKvvPWM/DSCF0770.jpg',
+      'https://i.postimg.cc/ZK3G4JJG/DSCF0779.jpg',
+      'https://i.postimg.cc/yY9Ms77Q/DSCF0783.jpg',
+    ]
+  },
+  {
+    id: 'la-17',
+    category: 'Life Aesthetics',
+    subCategory: 'Natural Light',
+    title: 'Sunlight Play',
+    titleCn: '自然采光',
+    description: 'Capturing the dynamic shadows of a sunny afternoon.',
+    images: [
+      'https://i.postimg.cc/RV6Mfr4D/DSCF5373.jpg',
+      'https://i.postimg.cc/SN2y80kg/DSCF5383.jpg',
+      'https://i.postimg.cc/C1rgB729/DSCF5395.jpg',
+      'https://i.postimg.cc/j2GYv5t3/DSCF5634.jpg',
+      'https://i.postimg.cc/L6YHfdmS/DSCF5371.jpg',
+      'https://i.postimg.cc/hvn5Gd4F/e15aea39729b89f54dca7e8c560b97f6.jpg',
+      'https://i.postimg.cc/qqr573BV/2eeb797abf4d1450b843f4607ddb3362.jpg',
+      'https://i.postimg.cc/j2TFj7qY/b75962bd5fddd7ac683defc8c08f10dd.jpg',
+    ]
+  },
+  {
+    id: 'la-18',
+    category: 'Life Aesthetics',
+    subCategory: 'Cozy Nook',
+    title: 'Silent Evening',
+    titleCn: '温馨角落',
+    description: 'The comfort of soft lighting and warm textures.',
+    images: [
+      'https://i.postimg.cc/CKfPHNzT/ee3e3c87f2d878b3d165da918a2ca41b.jpg',
+      'https://i.postimg.cc/nLQRYkMy/c0c4bb2de810190e8b6484cd065b1d2c.jpg',
+      'https://i.postimg.cc/Gps7JQH0/bb04ab330f50d42cca31eee4516e1dd9.jpg',
+      'https://i.postimg.cc/JhB6cqtF/b744feb2456ffcd79a2221bc377e2228.jpg',
+      'https://i.postimg.cc/Gps7JQ9S/aff5bd58c5357eab3681d729d0c6adb4.jpg',
+      'https://i.postimg.cc/9fq8tpzn/a5b353de8038d3cc43e006112cd92d1a.jpg',
+    ]
+  },
+  {
+    id: 'la-19',
+    category: 'Life Aesthetics',
+    subCategory: 'Home Garden',
+    title: 'Secret Garden',
+    titleCn: '家居花园',
+    description: 'Bringing the freshness of nature into the living space through botanical arrangements.',
+    images: [
+      'https://i.postimg.cc/dQ8YCDtF/File3015.jpg',
+      'https://i.postimg.cc/YqG72v6p/IMG_1804.jpg',
+      'https://i.postimg.cc/8PJGk7RG/3.jpg',
+      'https://i.postimg.cc/yYgK6DmB/IMG_1805.jpg',
+      'https://i.postimg.cc/rF0TyD1q/1.jpg',
+      'https://i.postimg.cc/RV6mCW74/2.jpg',
+      'https://i.postimg.cc/qRvfPqBn/DSCF7879.jpg',
+      'https://i.postimg.cc/qR6pSLTc/e5f8bac4ae011f473f723de162bf66fc.jpg',
+      'https://i.postimg.cc/fLSMpKN0/2d6682db9a64f58ab058f44eef3e74ec.jpg',
+    ]
+  },
+  {
+    id: 'la-20',
+    category: 'Life Aesthetics',
+    subCategory: 'Reading Corner',
+    title: 'Quiet Pages & Warm Hours',
+    titleCn: '静页暖时',
+    description: 'A cozy, curated corner of the home where stories, snacks, and slow moments come together.',
+    images: [
+      'https://i.postimg.cc/Sx6wjCJN/File1922.jpg',
+      'https://i.postimg.cc/V66T7h4N/File1828.jpg',
+    ]
   },
 
-  // Food Light - 6 Items
+  // --- Food Light 舌尖光影 (16 Albums) ---
   {
     id: 'fl-1',
     category: 'Food Light',
     subCategory: 'Coffee',
-    title: 'Slow Morning Brew',
-    titleCn: '慢调手冲',
-    description: 'Capturing the steam and aroma of early coffee.',
-    imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=800'
+    title: 'Dark Morning Ritual',
+    titleCn: '黑养晨序',
+    description: 'A slow, nourishing brew of dark grains to ground your morning in quiet care.',
+    images: [
+      'https://i.postimg.cc/bwGcW1sk/DSCF0040.jpg',
+      'https://i.postimg.cc/2y2NRwdp/DSCF0022.jpg',
+      'https://i.postimg.cc/HW2gypq6/DSCF0026.jpg',
+      'https://i.postimg.cc/m2pWmm2V/DSCF0031.jpg',
+      'https://i.postimg.cc/qqjHVLsD/DSCF0025.jpg',
+    ]
   },
   {
     id: 'fl-2',
@@ -82,102 +361,333 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Artisan Sourdough',
     titleCn: '面包物语',
     description: 'The golden crust and soft light of fresh baking.',
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800'
+    images: [
+      'https://i.postimg.cc/d3KNHTzc/File2763.jpg',
+      'https://i.postimg.cc/FzQCWJ25/File2764.jpg',
+      'https://i.postimg.cc/x8SpxbB3/fd23cf16e19de1ddfd99352af98ab9f9.jpg',
+    ]
   },
   {
     id: 'fl-3',
     category: 'Food Light',
-    subCategory: 'Tea',
-    title: 'Zen Tea Moment',
-    titleCn: '禅意茶事',
-    description: 'A quiet afternoon with traditional tea.',
-    imageUrl: 'https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Dessert',
+    title: 'Morning Carbs',
+    titleCn: '晨间碳水',
+    description: 'A golden bagel, the perfect morning carb to start your day with sweet, satisfying harmony.',
+    images: [
+      'https://i.postimg.cc/PJxvk6G1/DSCF2977.jpg',
+      'https://i.postimg.cc/q7VKCXnV/c2a7590bdb9d8d01a469777c1448e3e8.jpg',
+      'https://i.postimg.cc/7L321GMG/DSCF2639.jpg',
+      'https://i.postimg.cc/ZqtNyFN1/d26d08fd82c3a977f59c910e7b3cfcee.jpg',
+      'https://i.postimg.cc/tgQ6Vt6B/a197ae3f54f82bf3587cbd35a20584ac.jpg',
+      'https://i.postimg.cc/NFz9G1Yz/DSCF3324.jpg',
+      'https://i.postimg.cc/bvcn2Hn4/c66b07f49299ce07110a05f162920276.jpg',
+      'https://i.postimg.cc/YSKFmfFX/54fa86b70859e5c1ca3fee66d36aa379.jpg',
+    ]
   },
   {
     id: 'fl-4',
     category: 'Food Light',
-    subCategory: 'Snacks',
-    title: 'Sweet Delights',
-    titleCn: '甜点时光',
-    description: 'Minimalist compositions of refined sweets.',
-    imageUrl: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Fruit',
+    title: 'Seasonal Harvest',
+    titleCn: '时令采撷',
+    description: 'The vibrant colors of fresh organic fruit.',
+    images: [
+      'https://i.postimg.cc/cCVMHqBZ/DSCF0066.jpg',
+      'https://i.postimg.cc/9fppBnc2/DSCF0044.jpg',
+      'https://i.postimg.cc/LsTTVbmm/DSCF0051.jpg',
+      'https://i.postimg.cc/8cFmNkMN/DSCF0055.jpg',
+      'https://i.postimg.cc/DzggcMnH/DSCF0046.jpg',
+      'https://i.postimg.cc/8CD4MSQY/DSCF0049.jpg'
+    ]
   },
   {
     id: 'fl-5',
     category: 'Food Light',
-    subCategory: 'Fresh Food',
-    title: 'Organic Harvest',
-    titleCn: '自然馈赠',
-    description: 'Vibrant colors of seasonal fresh produce.',
-    imageUrl: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Tableware',
+    title: 'Heart in a Cup',
+    titleCn: '杯中心意',
+    description: 'The art of dining begins with a perfectly poured latte, held close in a handcrafted mug.',
+    images: [
+      'https://i.postimg.cc/JzB6LxML/DSCF0459.jpg',
+      'https://i.postimg.cc/YS6d4Sv3/File2711.jpg',
+      'https://i.postimg.cc/VLvZ71hs/d1dc55308088be48ec541612a1dec109.jpg',
+      'https://i.postimg.cc/7YhtBDRZ/800f25f5582eea3d89f2288c3befc2c1.jpg',
+    ]
   },
   {
     id: 'fl-6',
     category: 'Food Light',
-    subCategory: 'Coffee',
-    title: 'Espresso Soul',
-    titleCn: '意式之魂',
-    description: 'Deep tones and rich textures of dark coffee.',
-    imageUrl: 'https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Drinks',
+    title: 'Slow Pour',
+    titleCn: '慢斟时光',
+    description: 'A ritual of slow pouring, where hot water meets ground coffee to create liquid light for the day.',
+    images: [
+      'https://i.postimg.cc/25Q0q51n/DSCF3097.jpg',
+      'https://i.postimg.cc/GpFXBp4B/DSCF3096.jpg',
+      'https://i.postimg.cc/9MD9sWvv/R0006009.jpg',
+      'https://i.postimg.cc/HxrMFpfN/R0006007.jpg',
+    ]
+  },
+  {
+    id: 'fl-7',
+    category: 'Food Light',
+    subCategory: 'Organic',
+    title: 'Organic Textures',
+    titleCn: '原生态肌理',
+    description: 'Exploring the natural surface and honest forms of ingredients.',
+    images: [
+      'https://i.postimg.cc/D0SjzkRZ/DSCF7299.jpg',
+      'https://i.postimg.cc/sxM62dbG/DSCF7302.jpg',
+      'https://i.postimg.cc/zvytfZ4c/DSCF7304.jpg',
+      'https://i.postimg.cc/tJ8rZvHm/DSCF7317.jpg',
+      'https://i.postimg.cc/d1tNzTBn/微信图片_2026_02_06_190037_931.jpg',
+      'https://i.postimg.cc/XJ71Ty89/微信图片_2026_02_06_190046_512.jpg',
+      'https://i.postimg.cc/FRsC2JZZ/微信图片_2026_02_06_190054_463.jpg',
+      'https://i.postimg.cc/gJStdkST/DSCF7253.jpg',
+      'https://i.postimg.cc/B6Y7sQ78/DSCF7298.jpg',
+      'https://i.postimg.cc/RFsb7Qtd/529802ce9ec1b62ea95ccd9f6a1cbb76.jpg',
+      'https://i.postimg.cc/W3WfG6Z0/7527b9f488e24b601c24422066403e72.jpg',
+      'https://i.postimg.cc/Px3FWzDM/2216b406107459fb72a4da5d0a34d354.jpg',
+    ]
+  },
+  {
+    id: 'fl-8',
+    category: 'Food Light',
+    subCategory: 'Table Scene',
+    title: 'Golden Steep',
+    titleCn: '金盏慢沏',
+    description: 'Wild chrysanthemum blooms spilling from a jar, telling quiet stories of calm and herbal care.',
+    images: [
+      'https://i.postimg.cc/ZRBsbzGs/DSCF0718.jpg',
+      'https://i.postimg.cc/HxcvY1qQ/DSCF0723.jpg',
+      'https://i.postimg.cc/Ss21SbBV/DSCF0724.jpg',
+      'https://i.postimg.cc/NM3JLPYc/DSCF0727.jpg',
+      'https://i.postimg.cc/0QTWrHxR/DSCF0729.jpg',
+      'https://i.postimg.cc/63kjT1KL/DSCF0717.jpg',
+    ]
+  },
+  {
+    id: 'fl-9',
+    category: 'Food Light',
+    subCategory: 'Breakfast',
+    title: 'Morning Nourish',
+    titleCn: '晨间滋养',
+    description: 'A smooth, nourishing paste to start your light morning meal, grounding your day in gentle self-care.',
+    images: [
+      'https://i.postimg.cc/W1xkRR7p/DSCF6740.jpg',
+      'https://i.postimg.cc/wjnmKKQG/DSCF6749.jpg',
+      'https://i.postimg.cc/QCV8xCXS/DSCF6764.jpg',
+      'https://i.postimg.cc/d3Dst3qg/DSCF6784.jpg',
+      'https://i.postimg.cc/SR5yX4Rj/DSCF6814.jpg',
+      'https://i.postimg.cc/j2Gbxh35/DSCF6756.jpg',
+      'https://i.postimg.cc/XYKbWdfS/DSCF6770.jpg',
+    ]
+  },
+  {
+    id: 'fl-10',
+    category: 'Food Light',
+    subCategory: 'Spices',
+    title: 'Vivid Harvest',
+    titleCn: '鲜活收成',
+    description: 'Bold, bright peppers carry the aromatic notes of fresh produce, straight from the earth.',
+    images: [
+      'https://i.postimg.cc/mDpcS0kX/R0000191.jpg',
+      'https://i.postimg.cc/tTv1zLJK/R0000199.jpg',
+      'https://i.postimg.cc/XN1t6xtf/R0000197.jpg',
+    ]
+  },
+  {
+    id: 'fl-11',
+    category: 'Food Light',
+    subCategory: 'Plating',
+    title: 'Blush & Berries',
+    titleCn: '粉莓小酌',
+    description: 'Minimal plating of blush rosé and fresh strawberries, a simple pleasure for quiet days.',
+    images: [
+      'https://i.postimg.cc/YCFsB7wx/f9da675e1beafad4a0737ab33ecfd50f.jpg',
+      'https://i.postimg.cc/tCwMcT8s/3d430e31b10464ab25a72c1e02e00c88.jpg',
+      'https://i.postimg.cc/JzX2C8W0/6181304d8ecdd11fcbb73a76bd4c78de.jpg',
+      'https://i.postimg.cc/JzX2C8Wr/7169a42b4a7629094c00f3d9a5ae27ce.jpg',
+      'https://i.postimg.cc/52zRWJM9/9154f4bd2bac82505714d1c646c99419.jpg',
+      'https://i.postimg.cc/wjNGYzdy/b593b9d6998d3b035e180d90b82c7247.jpg',
+      'https://i.postimg.cc/7ZzWr4y3/c02abbf52b85b13b62c2812bf51b0a73.jpg',
+      'https://i.postimg.cc/3xGcQhHp/f08b2ba5dd784c1d0ce085162e3d2218.jpg',
+      'https://i.postimg.cc/pX46ST39/29b3afed05d6648c89deafaed485e9de.jpg',
+    ]
+  },
+  {
+    id: 'fl-12',
+    category: 'Food Light',
+    subCategory: 'Tea Ritual',
+    title: 'Autumn Pour',
+    titleCn: '秋酿慢斟',
+    description: 'Quiet steeping of white wine among fallen leaves, where nature and ritual meet.',
+    images: [
+      'https://i.postimg.cc/QtRrJbgL/039b4d9c7e845a725bbb61827d6a310a.jpg',
+      'https://i.postimg.cc/0Q6sS3wB/27ba7f8c5a6611d86c464f7d31775f15.jpg',
+      'https://i.postimg.cc/Twy6bSDH/6fec703bb2fc2f70bc1c9a4cac786e59.jpg',
+      'https://i.postimg.cc/B680FyKm/8b535869751ad1bcbb617b15a53cb271.jpg',
+      'https://i.postimg.cc/nz6tGkKn/abcc22533cea521c9ec2806b17ef4739.jpg',
+      'https://i.postimg.cc/t4LtynzZ/d3318a0e1fe723462d8fd4105e7c7e06.jpg',
+      'https://i.postimg.cc/gJwWh5ZN/9ac178a6066bb8747532599272013af2.jpg',
+      'https://i.postimg.cc/MHVJPQtz/c694d2d97b2333a8fb55576c20c134bf.jpg',
+      'https://i.postimg.cc/7h0rs2Xx/beceb3dcc4715af6f70b681c07f18895.jpg',
+    ]
+  },
+  {
+    id: 'fl-13',
+    category: 'Food Light',
+    subCategory: 'Wine',
+    title: 'Glistening Glass',
+    titleCn: '杯中光影',
+    description: 'Refractions through crystal and liquid in the evening sun.',
+    images: [
+      'https://i.postimg.cc/qBbK4Ckb/33c7dc65691c42a55bd71cce6ff1659d.jpg',
+      'https://i.postimg.cc/dQHCwTqN/5e176be77e8e0d37397c7949297905f9.jpg',
+      'https://i.postimg.cc/3rSGYD8T/a3e27a1a79ab7061025a599064cdd7cb.jpg',
+      'https://i.postimg.cc/G37DdsLh/bad51215f5b506b2e9504f9e8bfd4311.jpg',
+      'https://i.postimg.cc/DfjGnb2Y/13d0ba69aaed9b54a6e5cbc5dac7328.jpg',
+      'https://i.postimg.cc/L4CP2Z9M/233bad91325e53c90dae5a641bf7902d.jpg',
+      'https://i.postimg.cc/2jcWrBkC/70ea968158578532df699cbe43b67f20.jpg',
+      'https://i.postimg.cc/BZYF41qh/3a9c39c46152e1660c479e885ceb68d7.jpg',
+    ]
+  },
+  {
+    id: 'fl-14',
+    category: 'Food Light',
+    subCategory: 'Geometry',
+    title: 'Edible Shapes',
+    titleCn: '食物几何',
+    description: 'Finding the abstract forms in seasonal ingredients.',
+    images: [
+      'https://i.postimg.cc/Gpfp6vPs/caadb9ec344596c015b8b7a55c3901a2.jpg',
+      'https://i.postimg.cc/QMCt6f77/2551977e6988e2564be0f031ae20164d.jpg',
+      'https://i.postimg.cc/tgJTrB6t/765d9f121fa2c6ffbd15008b6f95b93c.jpg',
+      'https://i.postimg.cc/8ckN5HSn/3825051c8b721646df7fee66f1eb5071.jpg',
+      'https://i.postimg.cc/fyWDLKN8/ce10cc10f7cc567daea708ace096bc31.jpg',
+      'https://i.postimg.cc/ZqnRfwNp/87269c2c4a9db190220c1984940d1def.jpg',
+    ]
+  },
+  {
+    id: 'fl-15',
+    category: 'Food Light',
+    subCategory: 'Studio',
+    title: 'Chilled Pour',
+    titleCn: '晨雾轻斟',
+    description: 'A crisp white wine poured over a soft blanket, where morning vapor meets quiet moments of leisure.',
+    images: [
+      'https://i.postimg.cc/nzk3HKTc/1922f96f35db43264dbe8fe087bb3e71.jpg',
+      'https://i.postimg.cc/zBjxJwpz/64de43647767a6e3df0b80b24a98d751.jpg',
+      'https://i.postimg.cc/d3V4D7SC/c9bca95c1f737b0c27a780d710a1f698.jpg',
+      'https://i.postimg.cc/sXcTVPKs/10fffebddce46857a7686c5f018cff73.jpg',
+      'https://i.postimg.cc/Sx6CFSgx/c655ef515b70f5e0e7709cbda344e9cd.jpg',
+      'https://i.postimg.cc/RhZXq3bC/ad56e8ee527ad605e997157c68100c01.jpg',
+      'https://i.postimg.cc/gj2NrwBz/d058b74e9d985d125a22a1faa912a2f7.jpg',
+    ]
+  },
+  {
+    id: 'fl-16',
+    category: 'Food Light',
+    subCategory: 'Rustic Table',
+    title: 'Earthly Harvest',
+    titleCn: '大地馈赠',
+    description: 'An intimate study of raw, organic textures and the quiet elegance of seasonal ingredients.',
+    images: [
+      'https://i.postimg.cc/QtTssr6d/DSCF6354.jpg',
+      'https://i.postimg.cc/cHnZZNDY/DSCF6366.jpg',
+      'https://i.postimg.cc/jj9KGj49/DSCF6346.jpg',
+      'https://i.postimg.cc/1zTPLzK8/DSCF6353.jpg',
+    ]
   },
 
-  // Fine Jewelry - 6 Items
+  // --- Fine Jewelry 精致饰觉 (6 Albums) ---
   {
     id: 'fj-1',
     category: 'Fine Jewelry',
-    subCategory: 'Necklaces',
+    subCategory: 'Gold',
     title: 'Golden Reflections',
     titleCn: '光影颈间',
     description: 'Macro textures of fine gold against silk.',
-    imageUrl: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800'
+    images: [
+      'https://i.postimg.cc/RZJ64MGJ/DSCF4769.jpg',
+      'https://i.postimg.cc/VNySN3Hd/x_TNIM.jpg',
+      'https://i.postimg.cc/TY4LzyVj/DSCF4748.jpg',
+      'https://i.postimg.cc/02BMT6Yd/DSCF4749.jpg',
+      'https://i.postimg.cc/xT4JwkvW/DSCF4752.jpg',
+      'https://i.postimg.cc/Hk8cdp3r/DSCF4765.jpg',
+      'https://i.postimg.cc/bvXGvKFv/DSCF4796.jpg',
+    ]
   },
   {
     id: 'fj-2',
     category: 'Fine Jewelry',
-    subCategory: 'Earrings',
+    subCategory: 'Pearls',
     title: 'Pearl Serenity',
     titleCn: '珠光微澜',
     description: 'Soft lighting highlighting delicate pearl finishes.',
-    imageUrl: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=800'
+    images: [
+      'https://i.postimg.cc/nhTHyNb5/DSCF4941.jpg',
+      'https://i.postimg.cc/25KC6v6D/DSCF4961.jpg',
+      'https://i.postimg.cc/9F5FZGBX/DSCF4930.jpg',
+      'https://i.postimg.cc/zXCDjVd8/DSCF4935.jpg',
+      'https://i.postimg.cc/kXQMcBjt/DSCF4936.jpg',
+    ]
   },
   {
     id: 'fj-3',
     category: 'Fine Jewelry',
-    subCategory: 'Bracelets',
-    title: 'Silver Intertwine',
-    titleCn: '银色交织',
-    description: 'Complex patterns in minimalist silver jewelry.',
-    imageUrl: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Stones',
+    title: 'Crystalline Soul',
+    titleCn: '晶莹之韵',
+    description: 'Exploring the depth of natural gemstones.',
+    images: [
+      'https://i.postimg.cc/MHtP606p/DSCF4986.jpg',
+      'https://i.postimg.cc/prPcMcHT/DSCF4987.jpg',
+      'https://i.postimg.cc/ZYLDxm8n/DSCF4993.jpg',
+      'https://i.postimg.cc/sDDHnLmx/DSCF5019.jpg',
+      'https://i.postimg.cc/rpLSH0Tj/DSCF4996.jpg',
+      'https://i.postimg.cc/xTJMTy18/DSCF4785.jpg',
+    ]
   },
   {
     id: 'fj-4',
     category: 'Fine Jewelry',
     subCategory: 'Rings',
-    title: 'Eternal Bond',
-    titleCn: '指间永恒',
-    description: 'Classic ring designs in natural light.',
-    imageUrl: 'https://images.unsplash.com/photo-1605100804763-247f67b3f416?auto=format&fit=crop&q=80&w=800'
+    title: 'Light on the Wrist',
+    titleCn: '腕间清光',
+    description: 'Stacked crystal bracelets that catch the light, turning quiet moments into infinite circles of calm.',
+    images: [
+      'https://i.postimg.cc/tTJ7vp1C/DSCF3174.jpg',
+      'https://i.postimg.cc/d13DNw7w/DSCF3173.jpg',
+      'https://i.postimg.cc/1tX47sg3/DSCF3175.jpg',
+      'https://i.postimg.cc/63PqDgRK/DSCF3180.jpg',
+      'https://i.postimg.cc/MTLHhNRn/DSCF3188.jpg',
+      'https://i.postimg.cc/qRqgD4NF/DSCF3166.jpg',
+      'https://i.postimg.cc/85csXN79/DSCF3169.jpg',
+      'https://i.postimg.cc/0Q4jLFmY/DSCF3190.jpg',
+      'https://i.postimg.cc/HxNnfR5M/DSCF3196.jpg',
+      'https://i.postimg.cc/LX5hQ2Jc/DSCF3155.jpg',
+      'https://i.postimg.cc/RFhqp4WD/DSCF3162.jpg',
+    ]
   },
   {
     id: 'fj-5',
     category: 'Fine Jewelry',
-    subCategory: 'Brooches',
-    title: 'Artistic Accent',
-    titleCn: '艺术点缀',
-    description: 'Sculptural brooches as wearable art.',
-    imageUrl: 'https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&q=80&w=800'
-  },
-  {
-    id: 'fj-6',
-    category: 'Fine Jewelry',
-    subCategory: 'Accessories',
-    title: 'Modern Elegance',
-    titleCn: '现代优雅',
-    description: 'Contemporary jewelry pieces for everyday wear.',
-    imageUrl: 'https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Craft',
+    title: 'The Studio',
+    titleCn: '匠造工坊',
+    description: 'The intimate details of the creation process.',
+    images: [
+      'https://i.postimg.cc/gkjFwjCm/DSCF0688.jpg',
+      'https://i.postimg.cc/d3WbHcTp/DSCF0657.jpg',
+      'https://i.postimg.cc/vTPJqw6j/DSCF0662.jpg',
+      'https://i.postimg.cc/3rnQJmbS/DSCF0682.jpg',
+      'https://i.postimg.cc/kGj01Pt1/DSCF0666.jpg',
+    ]
   },
 
-  // Fashion Style - 6 Items
+  // --- Fashion Style 穿搭风物 (15 Albums) ---
   {
     id: 'fs-1',
     category: 'Fashion Style',
@@ -185,7 +695,16 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Leather Textures',
     titleCn: '皮具韵律',
     description: 'Focusing on craftsmanship and organic materials.',
-    imageUrl: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800'
+    images: [
+      'https://i.postimg.cc/KzT7pP3Z/DSCF0842.jpg',
+      'https://i.postimg.cc/QMwkq4tv/DSCF0840.jpg',
+      'https://i.postimg.cc/zGdkyXY2/DSCF0825.jpg',
+      'https://i.postimg.cc/DZGQpr48/DSCF0838.jpg',
+      'https://i.postimg.cc/VvBqmzFR/DSCF0918.jpg',
+      'https://i.postimg.cc/L5Bt2mVb/DSCF1013.jpg',
+      'https://i.postimg.cc/BZxcxCGN/DSCF1027.jpg',
+      'https://i.postimg.cc/VsjBjFc7/DSCF1034.jpg',
+    ]
   },
   {
     id: 'fs-2',
@@ -194,42 +713,297 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Urban Steps',
     titleCn: '行走都市',
     description: 'Minimalist footwear in clean architectural spaces.',
-    imageUrl: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80&w=800'
+    images: [
+      'https://i.postimg.cc/cCQpWtjc/DSCF0915.jpg',
+      'https://i.postimg.cc/1XxkbrW7/DSCF0917.jpg',
+      'https://i.postimg.cc/J0wfS5Tg/DSCF0920.jpg',
+      'https://i.postimg.cc/HnQqm8RW/DSCF0926.jpg',
+      'https://i.postimg.cc/L4LKLGXG/DSCF0931.jpg',
+      'https://i.postimg.cc/02vgfZKj/DSCF0936.jpg',
+      'https://i.postimg.cc/fTs4K5Sk/DSCF0938.jpg',
+      'https://i.postimg.cc/j2VpB48k/DSCF0911.jpg',
+    ]
   },
   {
     id: 'fs-3',
     category: 'Fashion Style',
-    subCategory: 'Cloths',
-    title: 'Linen Collection',
-    titleCn: '麻衣系列',
-    description: 'Lightweight fabrics for summer lifestyle.',
-    imageUrl: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Linen',
+    title: 'Nature Fiber',
+    titleCn: '原力织造',
+    description: 'The breathability of flax and cotton.',
+    images: [
+      'https://i.postimg.cc/mrm2xJM7/微信图片_2026_02_06_191614_621.jpg',
+      'https://i.postimg.cc/Jhp4wvJT/微信图片_2026_02_06_191636_022.jpg',
+      'https://i.postimg.cc/YSdqcZgy/微信图片_2026_02_06_191639_693.jpg',
+      'https://i.postimg.cc/ThvTq6M8/DSCF2545.jpg',
+      'https://i.postimg.cc/R0SVD43B/微信图片_2026_02_06_191507_551.jpg',
+      'https://i.postimg.cc/rpVFPMD7/微信图片_2026_02_06_191516_865.jpg',
+      'https://i.postimg.cc/vmYHNb1T/微信图片_2026_02_06_191537_972.jpg',
+      'https://i.postimg.cc/mrL25BPv/微信图片_2026_02_06_191520_425.jpg',
+    ]
   },
   {
     id: 'fs-4',
     category: 'Fashion Style',
-    subCategory: 'Hats',
-    title: 'Shadow Play',
-    titleCn: '光影檐下',
-    description: 'Architectural hat designs and natural shadow.',
-    imageUrl: 'https://images.unsplash.com/photo-1533055640609-24b498dfd74c?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Outerwear',
+    title: 'Silhouette',
+    titleCn: '廓形之美',
+    description: 'Structural elegance in minimalist coats.',
+    images: [
+      'https://i.postimg.cc/HxLDQLrZ/DSCF7352.jpg',
+      'https://i.postimg.cc/LsK8BjS6/DSCF7359.jpg',
+      'https://i.postimg.cc/X7PJqTDc/DSCF7354.jpg',
+      'https://i.postimg.cc/024QjLHG/DSCF7347.jpg',
+      'https://i.postimg.cc/wjsBm0SC/DSCF7351.jpg',
+      'https://i.postimg.cc/mDrfQrP3/DSCF7327.jpg',
+      'https://i.postimg.cc/VvbhR0mB/DSCF7345.jpg',
+    ]
   },
   {
     id: 'fs-5',
     category: 'Fashion Style',
-    subCategory: 'Accessories',
-    title: 'Silk Detail',
-    titleCn: '丝缕柔情',
-    description: 'Soft silk scarves in gentle morning light.',
-    imageUrl: 'https://images.unsplash.com/photo-1584030373081-f37b7bb4fa8e?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Silk',
+    title: 'Flow',
+    titleCn: '流动之姿',
+    description: 'The movement of light on silk fabrics.',
+    images: [
+      'https://i.postimg.cc/bdfqHhcP/DSCF2547.jpg',
+      'https://i.postimg.cc/43WNCqtn/微信图片_2026_02_06_191545_928.jpg',
+      'https://i.postimg.cc/MT46HB9V/DSCF2315.jpg',
+      'https://i.postimg.cc/Y0WpWSPg/DSCF2211.jpg',
+      'https://i.postimg.cc/cJx4b0Ky/微信图片_2026_02_06_191527_393.jpg',
+      'https://i.postimg.cc/4dMfycWR/DSCF2206.jpg',
+    ]
   },
   {
     id: 'fs-6',
     category: 'Fashion Style',
-    subCategory: 'Bags',
-    title: 'Classic Tote',
-    titleCn: '经典托特',
-    description: 'Clean lines and functional minimalist design.',
-    imageUrl: 'https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&q=80&w=800'
+    subCategory: 'Accessory',
+    title: 'Bloom in Step',
+    titleCn: '步履生花',
+    description: 'Handcrafted shoes and socks that hold quiet blooms, turning daily steps into gentle poetry.',
+    images: [
+      'https://i.postimg.cc/pdsXN48Y/微信图片_2026_02_06_191618_015.jpg',
+      'https://i.postimg.cc/GpXh0VYX/微信图片_2026_02_06_191621_842.jpg',
+      'https://i.postimg.cc/qRgBpwXx/微信图片_2026_02_06_191649_472.jpg',
+      'https://i.postimg.cc/RFTYbxng/微信图片_2026_02_15_002706_611.jpg',
+      'https://i.postimg.cc/Y9xPyBms/微信图片_2026_02_15_002643_448.jpg',
+    ]
+  },
+  {
+    id: 'fs-7',
+    category: 'Fashion Style',
+    subCategory: 'Knitwear',
+    title: 'Soft Armor',
+    titleCn: '软糯之甲',
+    description: 'Exploring the gentle comfort of minimalist knitwear.',
+    images: [
+      'https://i.postimg.cc/1tTCfGb0/DSCF6828.jpg',
+      'https://i.postimg.cc/8CZnVQHj/DSCF6818.jpg',
+      'https://i.postimg.cc/NMLCsJJN/DSCF6822.jpg',
+      'https://i.postimg.cc/63SjyrFn/DSCF6825.jpg',
+      'https://i.postimg.cc/wx7ngvny/DSCF6722.jpg',
+      'https://i.postimg.cc/y8zGmTxY/DSCF6735.jpg',
+      'https://i.postimg.cc/mgGnYSkL/DSCF6736.jpg',
+      'https://i.postimg.cc/mgGnYSkR/DSCF6738.jpg',
+    ]
+  },
+  {
+    id: 'fs-8',
+    category: 'Fashion Style',
+    subCategory: 'Urban Layering',
+    title: 'City Textures',
+    titleCn: '城市肌理',
+    description: 'Dynamic layers for the modern urban wanderer in neutral tones.',
+    images: [
+      'https://i.postimg.cc/x82svfTd/DSCF2542.jpg',
+      'https://i.postimg.cc/brh6xyNs/DSCF2540.jpg',
+      'https://i.postimg.cc/kGmjQJXX/DSCF2541.jpg',
+      'https://i.postimg.cc/NFkdb355/DSCF2562.jpg',
+    ]
+  },
+  {
+    id: 'fs-9',
+    category: 'Fashion Style',
+    subCategory: 'Structural Detail',
+    title: 'Suede Stride',
+    titleCn: '麂皮步履',
+    description: 'Soft suede edges and clean lines, turning every step into a quiet statement of structural grace.',
+    images: [
+      'https://i.postimg.cc/3Jp8r9z8/DSCF2571.jpg',
+      'https://i.postimg.cc/GhYL3z6h/DSCF2573.jpg',
+      'https://i.postimg.cc/0y09Dj8L/DSCF2575.jpg',
+      'https://i.postimg.cc/K8DmBjGx/DSCF2576.jpg',
+      'https://i.postimg.cc/0ys8zDq7/DSCF2630.jpg',
+      'https://i.postimg.cc/dVYqhrKB/DSCF2631.jpg',
+      'https://i.postimg.cc/kgmn2Kmq/DSCF2634.jpg'
+    ]
+  },
+  {
+    id: 'fs-11',
+    category: 'Fashion Style',
+    subCategory: 'Slow Morning',
+    title: 'Blue Weave',
+    titleCn: '蓝织闲步',
+    description: 'Woven blue leather and low heels, turning slow mornings into loungewear poetry with every step.',
+    images: [
+      'https://i.postimg.cc/c4qKcKSk/209f8f717t1af69f2c2007022f72bfd8_VSCO_2.jpg',
+      'https://i.postimg.cc/rFSDZ8VG/209f8f717t1af69f2c2007022f72bfd8_VSCO_3.jpg',
+      'https://i.postimg.cc/X7wr1Vjc/209f8f717t1af69f2c2007022f72bfd8_VSCO_4.jpg',
+      'https://i.postimg.cc/pXDmc2WJ/209f8f717t1af69f2c2007022f72bfd8_VSCO.jpg',
+      'https://i.postimg.cc/c4Qvksx2/d2a7ebee8u1005f461343dcad2ec5d1d_VSCO.jpg',
+    ]
+  },
+  {
+    id: 'fs-12',
+    category: 'Fashion Style',
+    subCategory: 'Archival Pieces',
+    title: 'Timeless Archive',
+    titleCn: '岁月之藏',
+    description: 'A curation of vintage silhouettes and modern spirits.',
+    images: [
+      'https://i.postimg.cc/Pqn8rPS9/DSCF2587.jpg',
+      'https://i.postimg.cc/Dz3by8Cb/DSCF2589.jpg',
+      'https://i.postimg.cc/k5NRVqZD/DSCF2582.jpg',
+      'https://i.postimg.cc/SKbzNJZX/DSCF2583.jpg',
+      'https://i.postimg.cc/Y9pGYTK3/DSCF2601.jpg',
+      'https://i.postimg.cc/0Qc6fZ98/DSCF2605.jpg',
+      'https://i.postimg.cc/pTq9ZkPP/DSCF2616.jpg',
+    ]
+  },
+  {
+    id: 'fs-15',
+    category: 'Fashion Style',
+    subCategory: 'Minimalist Scarf',
+    title: 'Gentle Wrap',
+    titleCn: '温润围裹',
+    description: 'Completing the look with soft, purposeful textures.',
+    images: [
+      'https://i.postimg.cc/9FJhQSJ4/77.jpg',
+      'https://i.postimg.cc/TYC63SCY/44_裁剪.jpg',
+      'https://i.postimg.cc/hPpBtwpb/88.jpg',
+      'https://i.postimg.cc/7YmkZcmg/99.jpg',
+      'https://i.postimg.cc/5NxJ115G/10.jpg',
+      'https://i.postimg.cc/J418mm3f/11.jpg',
+      'https://i.postimg.cc/7Yx4DDMv/22.jpg',
+      'https://i.postimg.cc/Qx03dP0C/66.jpg',
+    ]
+  },
+
+  // --- WHIMSICAL TOYS 趣玩小物 (7 Albums) ---
+  {
+    id: 'wt-1',
+    category: 'WHIMSICAL TOYS',
+    subCategory: 'Wooden Figures',
+    title: 'Wooden Harmony',
+    titleCn: '木意',
+    description: 'The organic warmth of handcrafted wooden blocks and simple toy figures in soft sunlight.',
+    images: [
+      'https://i.postimg.cc/2yvfwJ8n/DSCF2827.jpg',
+      'https://i.postimg.cc/FRw40mmL/DSCF2816.jpg',
+      'https://i.postimg.cc/mkMGwq2c/DSCF2817.jpg',
+      'https://i.postimg.cc/kgwPfW90/DSCF2821.jpg',
+      'https://i.postimg.cc/dVnc4GwP/DSCF2824.jpg',
+      'https://i.postimg.cc/wBv8P3jK/DSCF2825.jpg', 
+    ]
+  },
+  {
+    id: 'wt-2',
+    category: 'WHIMSICAL TOYS',
+    subCategory: 'Miniatures',
+    title: 'Micro Aesthetics',
+    titleCn: '微缩美学',
+    description: 'Exploring small-scale furniture and architectural miniatures in a studio setting.',
+    images: [
+     'https://i.postimg.cc/LsN4Yrnk/DSCF2841.jpg',
+      'https://i.postimg.cc/xCZ0gMvp/DSCF2844.jpg',
+      'https://i.postimg.cc/bYGbPRBN/DSCF2909.jpg',
+      'https://i.postimg.cc/xC8fKtzw/DSCF2843.jpg',
+      'https://i.postimg.cc/bJ5zLk0q/DSCF2850.jpg',
+      'https://i.postimg.cc/Dmk73hY1/DSCF2880.jpg',
+      'https://i.postimg.cc/Hn7TNn3y/DSCF2855.jpg',
+      'https://i.postimg.cc/xqD9VQFy/DSCF2883.jpg', 
+    ]
+  },
+  {
+    id: 'wt-3',
+    category: 'WHIMSICAL TOYS',
+    subCategory: 'Retro Toys',
+    title: 'Nostalgic Play',
+    titleCn: '复古童心',
+    description: 'Capturing the vintage charm of classic figures and retro-inspired collection pieces.',
+    images: [
+      'https://i.postimg.cc/tT35NNGq/DSCF2864.jpg',
+      'https://i.postimg.cc/2Sy0NWnk/DSCF2778.jpg',
+      'https://i.postimg.cc/HxDzMPK6/DSCF2778.jpg', 
+      'https://i.postimg.cc/B69pFwkG/DSCF2784.jpg',
+      'https://i.postimg.cc/P5JSnDYK/DSCF2774.jpg',
+    ]
+  },
+  {
+    id: 'wt-4',
+    category: 'WHIMSICAL TOYS',
+    subCategory: 'Delicate Objects',
+    title: 'Curated Figures',
+    titleCn: '玩偶诗学',
+    description: 'A thoughtful study of texture and form in decorative toys and small ceramic figures.',
+    images: [
+      'https://i.postimg.cc/Xq6PVv4L/DSCF2957.jpg',
+      'https://i.postimg.cc/Bbfzqv4K/DSCF2832.jpg',
+      'https://i.postimg.cc/NFvng0Br/DSCF2833.jpg',
+      'https://i.postimg.cc/RhxYM04K/DSCF2835.jpg',
+      'https://i.postimg.cc/Y0BPpSM3/DSCF2836.jpg',
+      'https://i.postimg.cc/yxCGVNsD/DSCF2830.jpg',
+    ]
+  },
+  {
+    id: 'wt-5',
+    category: 'WHIMSICAL TOYS',
+    subCategory: 'Building Blocks',
+    title: 'Structural Joy',
+    titleCn: '几何乐园',
+    description: 'Finding architectural balance and playful geometry in simple building shapes.',
+    images: [
+      'https://i.postimg.cc/Dyn26vLQ/DSCF2889.jpg',
+      'https://i.postimg.cc/65cB1kfC/DSCF2891.jpg',
+      'https://i.postimg.cc/vHbQhYff/DSCF2885.jpg',
+      'https://i.postimg.cc/02P8nkDd/DSCF2887.jpg',
+      'https://i.postimg.cc/KvxZfGBL/DSCF2888.jpg',
+    ]
+  },
+  {
+    id: 'wt-6',
+    category: 'WHIMSICAL TOYS',
+    subCategory: 'Character Figures',
+    title: 'Character Tales',
+    titleCn: '玩偶物语',
+    description: 'Capturing the whimsical personality and classic charm of favorite toy characters in curated scenes.',
+    images: [
+      'https://i.postimg.cc/v8SzLBpq/DSCF2863.jpg',
+      'https://i.postimg.cc/NGP47MW5/DSCF2859.jpg',
+      'https://i.postimg.cc/Wpfn63Qr/DSCF2860.jpg',
+      'https://i.postimg.cc/wxbVcvSt/DSCF2847.jpg',
+      'https://i.postimg.cc/hvw1SyLg/DSCF2848.jpg',
+      'https://i.postimg.cc/1XTr9CGS/DSCF2849.jpg',
+    ]
+  },
+  {
+    id: 'wt-7',
+    category: 'WHIMSICAL TOYS',
+    subCategory: 'Small Wonders',
+    title: 'Curiosity Cabinet',
+    titleCn: '趣玩百宝箱',
+    description: 'A vibrant collection of small, artful objects and quirky ceramics that bring unexpected joy to daily life.',
+    images: [
+      'https://i.postimg.cc/85mYzS5h/DSCF2931.jpg',
+      'https://i.postimg.cc/xC27QC00/DSCF2921.jpg',
+      'https://i.postimg.cc/NMcVtMg1/DSCF2927.jpg',
+      'https://i.postimg.cc/cHSjWHsh/DSCF2930.jpg',
+      'https://i.postimg.cc/9FrLvTGB/DSCF2925.jpg',
+      'https://i.postimg.cc/jdLMGNzp/DSCF2960.jpg',
+      'https://i.postimg.cc/bNsmKbxj/DSCF2963.jpg',
+      'https://i.postimg.cc/dtL5zd2J/DSCF2964.jpg',
+      'https://i.postimg.cc/c4rFVYQB/DSCF2948.jpg',
+    ]
   },
 ];

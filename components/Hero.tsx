@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Hero: React.FC = () => {
@@ -7,9 +6,6 @@ const Hero: React.FC = () => {
       {/* Left Content Side */}
       <div className="w-full md:w-1/2 h-full flex items-center justify-center p-8 md:p-24 z-10">
         <div className="max-w-md animate-fade-up">
-          <span className="text-[10px] uppercase tracking-[0.5em] text-stone-400 mb-4 block">
-            Zhao Mengwen Photography
-          </span>
           <h1 className="text-6xl md:text-8xl font-serif mb-6 leading-[0.9] text-stone-900">
             Nordic <br /> 
             <span className="italic font-light">Soul.</span>
@@ -21,7 +17,7 @@ const Hero: React.FC = () => {
               "Capturing the silent poetry of objects and light."
             </p>
             <p className="text-lg text-stone-400 font-light tracking-wide">
-              记录万物有灵的安静瞬间
+              记录日常里的安静瞬间
             </p>
           </div>
           
@@ -42,7 +38,7 @@ const Hero: React.FC = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center transition-transform duration-[3000ms] hover:scale-110"
           style={{ 
-            backgroundImage: `url('https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=2000')` 
+            backgroundImage: `url('https://i.postimg.cc/BnDr7CVb/DSCF9469.jpg')` 
           }}
         >
           <div className="absolute inset-0 bg-stone-900/5"></div>

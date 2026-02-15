@@ -13,10 +13,8 @@ const Footer: React.FC = () => {
           Photography with Soul
         </div>
 
-        <div className="flex space-x-8">
-          <a href="#" className="text-xs uppercase tracking-widest text-stone-400 hover:text-stone-900 transition-colors">Instagram</a>
-          <a href="#" className="text-xs uppercase tracking-widest text-stone-400 hover:text-stone-900 transition-colors">Behance</a>
-        </div>
+        {/* Social links removed per request */}
+        <div className="hidden md:block w-32"></div> {/* Spacer to keep layout balanced */}
       </div>
     </footer>
   );
